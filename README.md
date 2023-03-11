@@ -15,9 +15,9 @@ _Pare reproduzir os testes é necessário fazer o deploy da aplicações web de 
 * MAIL_USER=?
 * MAIL_PASS=?
 
-**No projeto foi utilizado o serviço de e-mail na nuvem disponivel no site https://ethereal.email/ **
+**No projeto foi utilizado o serviço de e-mail na nuvem disponivel no site https://ethereal.email/**
 
-**Acesse a pasta API e Web execute os comando abaixo:**  
+**Deploy da local da aplicações, acesse a pasta API e Web execute os comando abaixo:**  
 
 ### Comandos com yarn:
 

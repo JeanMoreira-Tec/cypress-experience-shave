@@ -1,0 +1,12 @@
+{
+  "name": "cypress-experience-shave",
+  "version": "1.0.0",
+  "description": "Projeto de testes de ponta a ponta para o site de serviços de babearia",
+  "main": "index.js",
+  "repository": "https://github.com/JeanMoreira-Tec/cypress-experience-shave.git",
+  "author": "Jean Moreira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
