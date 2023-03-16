@@ -1,5 +1,7 @@
-describe('login', () => {
+import loginPage from '../support/page/login'
 
+
+describe('login', () => {
 
     context('quando submeto o formulário de login', () => {
 
@@ -10,14 +12,7 @@ describe('login', () => {
                 password: 'pwd123'
             }
 
-            cy.visit('http://localhost:3000')
-
-            cy.get('input[placeholder$=email]').type(user.email)
-            cy.get('input[placeholder*=senha]').type(user.password)
-
-
-            cy.contains('button', 'Entrar')
-                .click()
+            loginPage.submit(user.email, user.password)
 
             cy.get('.logged-user div a')
                 .should('be.visible')
@@ -32,14 +27,7 @@ describe('login', () => {
                 password: 'pwd321'
             }
 
-            cy.visit('http://localhost:3000')
-
-            cy.get('input[placeholder$=email]').type(user.email)
-            cy.get('input[placeholder*=senha]').type(user.password)
-
-
-            cy.contains('button', 'Entrar')
-                .click()
+            loginPage.submit(user.email, user.password)
         
             const message = 'Ocorreu um erro ao fazer login, verifique suas credenciais.'
 
@@ -57,14 +45,7 @@ describe('login', () => {
                 password: 'pwd321'
             }
 
-            cy.visit('http://localhost:3000')
-
-            cy.get('input[placeholder$=email]').type(user.email)
-            cy.get('input[placeholder*=senha]').type(user.password)
-
-
-            cy.contains('button', 'Entrar')
-                .click()
+            loginPage.submit(user.email, user.password)
         
             const message = 'Ocorreu um erro ao fazer login, verifique suas credenciais.'
 
@@ -73,6 +54,7 @@ describe('login', () => {
                 .find('.error p')
                 .should('have.text', message)
         })
+        
     })
 
 })
