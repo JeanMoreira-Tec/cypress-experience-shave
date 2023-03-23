@@ -8,7 +8,7 @@ _Pare reproduzir os testes é necessário fazer o deploy da aplicações web de 
 * POSTGRES_PASS=?
 * POSTGRES_NAME=?
 
-**No projeto foi utilizado o banco de dados na nuvem disponivel no site https://www.elephantsql.com:**
+**No projeto foi utilizado o banco de dados na nuvem disponivel no site https://www.elephantsql.com**
 
 ### Configuração do e-mail no arquivo env na pasta api:
 * MAIL_DRIVER=?

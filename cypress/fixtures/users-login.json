@@ -1,0 +1,33 @@
+{
+    "success": {
+        "name": "UserTestQA",
+        "email": "UserTestQA@shavexp.com",
+        "password": "pwd123"
+    },
+    "invpass": {
+        "name": "UserTestQA",
+        "email": "UserTestQA@shavexp.com",
+        "password": "pwd321"
+    },
+    "email404": {
+        "name": "UserTestQA",
+        "email": "UserTestQA@404.com",
+        "password": "pwd123"
+    },
+    "shortpass": [
+        "1",
+        "12",
+        "123",
+        "1234",
+        "12345"
+    ],
+    "invemails": [
+        "UserTestQA&shavexp.com",
+        "UserTestQA2shavexp.com",
+        "UserTestQAtest.com",
+        "@yahoo.com",
+        "@",
+        "123456",
+        "Alf$Num3ric0"
+    ]
+}
