@@ -2,7 +2,8 @@
     "success": {
         "name": "UserTestQA",
         "email": "UserTestQA@shavexp.com",
-        "password": "pwd123"
+        "password": "pwd123",
+        "is_shaver": false
     },
     "invpass": {
         "name": "UserTestQA",

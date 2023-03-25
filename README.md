@@ -32,3 +32,11 @@ _Pare reproduzir os testes é necessário fazer o deploy da aplicações web de 
 * npm run db:init
 * npm run db:populate
 * npm run dev
+
+**Iniciar a API Helper da local da aplicações, acesse a pasta do projeto e execute os comando abaixo:** 
+### Comandos com npx:
+* npx nodemon apiHelper/app.js
+
+### Comandos com yarn:
+
+* yarn nodemon apiHelper/app.js
