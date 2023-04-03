@@ -1,17 +1,17 @@
 {
     "success": {
-        "name": "UserTestQA",
-        "email": "UserTestQA@shavexp.com",
+        "name": "User Test QA",
+        "email": "UserTestQA@quality .com",
         "password": "pwd123",
         "is_shaver": false
     },
     "invpass": {
-        "name": "UserTestQA",
-        "email": "UserTestQA@shavexp.com",
+        "name": "User Test QA",
+        "email": "UserTestQA@quality .com",
         "password": "pwd321"
     },
     "email404": {
-        "name": "UserTestQA",
+        "name": "User Test QA",
         "email": "UserTestQA@404.com",
         "password": "pwd123"
     },
@@ -23,8 +23,8 @@
         "12345"
     ],
     "invemails": [
-        "UserTestQA&shavexp.com",
-        "UserTestQA2shavexp.com",
+        "UserTestQA&quality .com",
+        "UserTestQA2quality .com",
         "UserTestQAtest.com",
         "@yahoo.com",
         "@",
