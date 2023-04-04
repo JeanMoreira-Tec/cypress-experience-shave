@@ -1,8 +1,11 @@
 class Header {
     userShouldbeLoggedIn(name) {
+
+        const firtName = name.split(' ')[0]
+
         cy.get('.logged-user div a')
             .should('be.visible')
-            .should('have.text', 'Olá, ' + name)
+            .should('have.text', 'Olá, ' + firtName)
     }
 
 }
