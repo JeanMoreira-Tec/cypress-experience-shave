@@ -1,13 +1,13 @@
 {
     "success": {
         "name": "User Test QA",
-        "email": "UserTestQA@quality .com",
+        "email": "UserTestQA@quality.com",
         "password": "pwd123",
         "is_shaver": false
     },
     "invpass": {
         "name": "User Test QA",
-        "email": "UserTestQA@quality .com",
+        "email": "UserTestQA@quality.com",
         "password": "pwd321"
     },
     "email404": {
@@ -23,8 +23,8 @@
         "12345"
     ],
     "invemails": [
-        "UserTestQA&quality .com",
-        "UserTestQA2quality .com",
+        "UserTestQA&quality.com",
+        "UserTestQA2quality.com",
         "UserTestQAtest.com",
         "@yahoo.com",
         "@",

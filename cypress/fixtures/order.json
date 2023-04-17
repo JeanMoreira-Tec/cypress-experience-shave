@@ -1,0 +1,15 @@
+{
+    "customer": {
+        "name": "User Order QA",
+        "email": "UserOrderQA@quality.com",
+        "password": "pwd123",
+        "is_shaver": false
+    },
+    "shaver": {
+        "name": "Hope Summers"
+    },
+    "service": {
+        "description": "Pacote completo",
+        "price": "250,00"
+    }
+}
